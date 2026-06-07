@@ -1,0 +1,20 @@
+{
+  "pca_explained_variance": [
+    0.27167050182918223,
+    0.2250242532302521
+  ],
+  "kmeans": {
+    "k": 2,
+    "silhouette": 0.2704420720616953
+  },
+  "agglomerative": {
+    "k": 2,
+    "silhouette": 0.2606611422703558
+  },
+  "dbscan": {
+    "clusters": 2,
+    "noise": 72,
+    "silhouette": 0.6243095724515115
+  },
+  "kmeans_vs_winetype_ari": 0.9320109366254888
+}
