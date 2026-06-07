@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data & models (often large; track via DVC/LFS instead)
+data/
+models/
+*.ckpt
+*.pt
+*.pkl
+*.h5
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Stray test artifacts
+_wtest.txt
